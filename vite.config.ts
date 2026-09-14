@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/EPC8-JogoPegadaDigital/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
